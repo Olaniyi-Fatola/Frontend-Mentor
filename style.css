@@ -1,5 +1,5 @@
 body{
-    background-color: #d5e1ef;
+    background-color: hsl(212, 45%, 89%);
 }
 
 .box{
@@ -13,7 +13,7 @@ body{
     font-family: arial;
     font-weight: 700px;
     font-size: 15px;
-    box-shadow: 2px 15px 20px 5px rgba(0, 0, 0, 0.11);
+    box-shadow: 2px 15px 20px 5px rgba(0, 0, 0, 0.11); 
 }
 
 img{
@@ -27,11 +27,12 @@ h1{
     margin: auto;
     padding: 25px;
     text-align: center;
+    color: hsl(218, 44%, 22%);
 }
 
 p{
     margin: auto;
     padding: 25px;
     text-align: center;
-    color: grey;
+    color: hsl(216, 15%, 48%);
 }
