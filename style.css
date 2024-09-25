@@ -3,37 +3,42 @@ body{
     flex-direction: column;
     background-color: hsl(212, 45%, 89%);
     justify-content: center;
+    font-family: "Outfit";
+    font-size: 15px;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
+    width: auto;
 }
 
 .box{
     margin: auto;
     background-color: white;
     width: 320px;
-    height: 497px;
+    height: 500px;
     border-radius: 22px;
-    font-family: arial;
-    font-weight: 700px;
-    font-size: 15px;
     box-shadow: 2px 15px 20px 5px rgba(0, 0, 0, 0.11); 
 }
-
-.image{
-    margin: 16px;
-    width: 288px;
-    height: 288px;
+div .image{
+    margin: 3.25% ;
+    margin-bottom: 1%;
+    width: 20em;
     border-radius: 28px;
 }
 
 h1{
     text-align: center;
-    padding: 3%;
+    font-size: 1.5em;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    padding: 0.5em;
     color: hsl(218, 44%, 22%);
 }
 
 p{
     text-align: center;
-    padding: 3%;
+    font-size: 1.1em;
+    padding: 0.5em;
+    margin-top: 1%;
+    margin-bottom: 4%;
     color: hsl(216, 15%, 48%);
 }
